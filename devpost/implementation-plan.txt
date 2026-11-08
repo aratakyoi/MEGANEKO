@@ -1,0 +1,24 @@
+MEGANEKO — implementation plan reconciled 2026-11-08 JST
+
+Current scope: FOUR real characters, replacing the historical 20-character plan.
+Gentle 40%, Detective 40%, Princess 18%, Queen 2%; tier weights 80/18/2.
+Independent draws for both participants, duplicates allowed, no forced Queen or special guarantee.
+More characters are planned. Original planning provenance is preserved in design-brief.md.
+
+Checked implementation and evidence:
+[x] Four wired native rigged prefabs and final icon, native saved.
+[x] Persistent four-catalogue namespace, one initial draw, replay-safe commits; legacy data retained.
+[x] Same-species matching, explicit two-sided consent, cancellation, separation and freshness gates.
+[x] Companion, catalogue, inspect, fusion halo/particles/reveal, muted-by-default audio.
+[x] Idle and Celebrate skeletal animation; Walk imported but not used at runtime.
+[x] Three LEAF scenarios passed in previous native run; logs verified in four-final-native-test-evidence.txt.
+[x] Current compile and native Preview screenshots; actual simulated N,F,F,H fusion.
+[x] Editor-only labelled four-model and Queen display fixtures, no acquisition or profile changes.
+
+Unverified / not implemented:
+[ ] Physical two-device handshake, alignment, outdoor tracking, performance and comfort.
+[ ] New two-pane SyncKit test in this continuation; no claim made.
+[ ] Automatic street discovery: not implemented; opt-in shared session only.
+[ ] User aesthetic approval and full submission video: user handles recording.
+Local 20–40-second confirmation clip is pending helper and outside native writer's task.
+This checklist records checked work only, not blanket approval of design-brief criteria.

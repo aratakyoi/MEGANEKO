@@ -1,0 +1,16 @@
+MEGANEKO Tutorial final report — 2026-11-08 JST
+Project: D:/Documents/Lens Studio/MEGANEKO/MEGANEKO.esproj
+Initial native save completed before tests/source edits; see tutorial-save-checkpoint.txt.
+Approved final pose and real imported assets retained. No visual changes.
+Full flow PASS: existing meganeko-tutorial native Preview LEAF succeeded (tutorial-build-events.jsonl item_89), before the approved two-line pose adjustment. Actual UIKit flow, Exit/Replay/Back, storage/profile/session/ledger preservation and Home/Collection recovery were covered. Full flow was not rerun.
+Final pose check: meganeko-tutorial-pose succeeded in Preview, 2026-11-08 03:27:52 JST; duration 7.034 seconds.
+Controlled fixture: Main.action('tutorial'), wait 6600 ms; compare bone worldTransform.multiplyPoint metadata contacts.
+TUTORIAL_POSE_CONTACT {"gapCm":0,"limitCm":0.15,"pass":true}
+t.exit() verified tutorial=null, view=home, muted=true, musicVolume=0, chimeVolume=0.
+Native TypeScript compile succeeded. Final short-run log contained no errors.
+Original MeganekoTutorialScenario.ts preserved. Added separate short pose scenario and registration only.
+Historical PreviewInteractTool tutorialReplay timeout was bypassed/resolved for finalization through the authorized controlled fixture; no replay tool retry and no current blocker.
+Approved intro/handshake/result/fusion/home images retained without recapture.
+Tutorial is a 15-second virtual scripted demonstration, not a real hand detector. No physical-device validation claim.
+Collection/storage/network behavior unchanged.
+Handoff sequence after this report: native project save, documented PreviewPanelTool pause, getConfig verification. No screenshots after pause, video, upload, or shutdown.

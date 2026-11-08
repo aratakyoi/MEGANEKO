@@ -1,0 +1,56 @@
+[
+  {
+    "name": "TutorialPartner",
+    "clips": [
+      "Handshake",
+      "Idle",
+      "OfferHandshake"
+    ],
+    "bones": 15,
+    "triangles": 22580,
+    "bounds_blender": [
+      [
+        -0.3649999499320984,
+        -0.5112898945808411,
+        0.012999998405575752
+      ],
+      [
+        0.3649999797344208,
+        0.14800000190734863,
+        1.5700002908706665
+      ]
+    ],
+    "motion_m": {
+      "Handshake_TutorialPartnerRig": 0.008003137543475713,
+      "Idle_TutorialPartnerRig": 0.009645534702961358,
+      "OfferHandshake_TutorialPartnerRig": 0.06032493458726211
+    },
+    "status": "PASS"
+  },
+  {
+    "name": "TutorialRightHand",
+    "clips": [
+      "Grip",
+      "Open"
+    ],
+    "bones": 5,
+    "triangles": 3104,
+    "bounds_blender": [
+      [
+        -0.045000024139881134,
+        -0.164699986577034,
+        -0.04899999126791954
+      ],
+      [
+        0.04500000551342964,
+        0.1562899798154831,
+        0.07817647606134415
+      ]
+    ],
+    "motion_m": {
+      "Grip_TutorialRightHandRig": 0.014203866983604659,
+      "Open_TutorialRightHandRig": 0.0
+    },
+    "status": "PASS"
+  }
+]

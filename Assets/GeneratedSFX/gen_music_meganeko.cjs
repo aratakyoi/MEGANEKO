@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path');
+const m=require('C:/Users/arata/.codex/plugins/cache/ls-extensions/ls-clad/local/skills/build-music/tools');
+const out='D:/Documents/Lens Studio/MEGANEKO/Assets/GeneratedSFX';
+fs.mkdirSync(out,{recursive:true});
+const bpm=m.suggestTempo('dreamy');
+const {chords,meta}=m.composeChords({genre:'dreamy',voice:'kalimba'});
+const comp=m.chordEvents(chords,{voice:'kalimba',bars:8,stagger:.16});
+const notes=m.composeMelody({chords,bars:8,notesPerBar:2,octaveShift:1,contour:'arch',scale:meta.scale,restProbability:.35});
+const tracks=[m.track('soft bells','kalimba',comp,{fx:{hpf:200,lpf:4000,reverb:'mediumRoom',gain:.3}}),m.track('wandering spirit','musicBox',notes,{fx:{hpf:550,lpf:5000,reverb:'mediumRoom',gain:.22}})];
+m.WavBuilder.write(m.render(tracks,{bpm,duration:32*60/bpm,master:{normalize:'peak'}}),path.join(out,'MeganekoMoonwalk.wav'));
+const chime=m.scale(m.parseMini('0 2 4 7',{cycleBeats:2}),'pentatonicMajor','D5');
+m.WavBuilder.write(m.render([m.track('new spirit','musicBox',chime,{fx:{reverb:'mediumRoom',gain:.5}})],{bpm:100,duration:3}),path.join(out,'MeganekoBirth.wav'));
+console.log(JSON.stringify({bpm,meta}));

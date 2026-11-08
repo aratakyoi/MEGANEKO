@@ -1,0 +1,391 @@
+{
+  "scope": "Standalone pure-rule tests only; NOT Lens compile, LEAF, UI, sync or hardware validation",
+  "passed": 96,
+  "total": 96,
+  "results": [
+    {
+      "name": "4 unique stable IDs and tier counts 2/1/1",
+      "pass": true
+    },
+    {
+      "name": "Exact tier boundaries",
+      "pass": true
+    },
+    {
+      "name": "Species within each tier can reach last index",
+      "pass": true
+    },
+    {
+      "name": "Initial profile draws one cat and persists exactly",
+      "pass": true
+    },
+    {
+      "name": "Repeated species remain possible and count increases",
+      "pass": true
+    },
+    {
+      "name": "A/B independent outcomes may differ",
+      "pass": true
+    },
+    {
+      "name": "A/B independent outcomes may match",
+      "pass": true
+    },
+    {
+      "name": "All four matching species use independent draws",
+      "pass": true
+    },
+    {
+      "name": "Duplicate transaction does not pay twice",
+      "pass": true
+    },
+    {
+      "name": "History survives new active companion",
+      "pass": true
+    },
+    {
+      "name": "Gold threshold exactly five",
+      "pass": true
+    },
+    {
+      "name": "Malformed profile rejected",
+      "pass": true
+    },
+    {
+      "name": "Valid continuous handshake triggers once",
+      "pass": true
+    },
+    {
+      "name": "Reject one-sided consent",
+      "pass": true
+    },
+    {
+      "name": "Reject cancelled request",
+      "pass": true
+    },
+    {
+      "name": "Reject same participant",
+      "pass": true
+    },
+    {
+      "name": "Reject untracked hand",
+      "pass": true
+    },
+    {
+      "name": "Reject far hands",
+      "pass": true
+    },
+    {
+      "name": "Reject far people",
+      "pass": true
+    },
+    {
+      "name": "Reject wrong palm orientation",
+      "pass": true
+    },
+    {
+      "name": "Reject expired request",
+      "pass": true
+    },
+    {
+      "name": "Stale hand prevents completion",
+      "pass": true
+    },
+    {
+      "name": "Separation unlocks subsequent transaction",
+      "pass": true
+    },
+    {
+      "name": "Pose trusts envelope identity and local receipt time only",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects short palm",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects long head",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects NaN palm",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects infinite head",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects unbounded coordinates",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects nonboolean tracked",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects negative sequence",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects fractional sequence",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects unsafe sequence",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects zero tracked normal",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects nonnormalized normal",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects invalid count",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects count exceeds serial",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects bad serial",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects bad species",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects short quaternion",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects zero quaternion",
+      "pass": true
+    },
+    {
+      "name": "Pose rejects invalid companion",
+      "pass": true
+    },
+    {
+      "name": "Replay and reordered pose sequences rejected",
+      "pass": true
+    },
+    {
+      "name": "Untracked sample may carry zero normal, detector still refuses it",
+      "pass": true
+    },
+    {
+      "name": "Future timestamps cannot build dwell or unlock latch",
+      "pass": true
+    },
+    {
+      "name": "Exact expiry refuses handshake",
+      "pass": true
+    },
+    {
+      "name": "Malformed consent cannot reward",
+      "pass": true
+    },
+    {
+      "name": "Cancellation reset does not clear held-hand latch",
+      "pass": true
+    },
+    {
+      "name": "Profile rejects zero serial",
+      "pass": true
+    },
+    {
+      "name": "Profile rejects unsafe count",
+      "pass": true
+    },
+    {
+      "name": "Profile rejects serial/count mismatch",
+      "pass": true
+    },
+    {
+      "name": "Profile rejects duplicate commits",
+      "pass": true
+    },
+    {
+      "name": "Profile rejects empty commit",
+      "pass": true
+    },
+    {
+      "name": "Malformed weights rejected",
+      "pass": true
+    },
+    {
+      "name": "Nonfinite random samples rejected",
+      "pass": true
+    },
+    {
+      "name": "Valid transaction yields independent A and B rewards",
+      "pass": true
+    },
+    {
+      "name": "Durable restart replay returns duplicate without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects changed serial without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects changed species without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects changed count without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects cancelled without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects one-sided without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects same user without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects same connection without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects invalid result without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects missing timing without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects extra outcome without mutation",
+      "pass": true
+    },
+    {
+      "name": "Transaction rejects unexpected ack without mutation",
+      "pass": true
+    },
+    {
+      "name": "Nonparticipant cannot acquire",
+      "pass": true
+    },
+    {
+      "name": "Changed local snapshot cannot acknowledge or acquire",
+      "pass": true
+    },
+    {
+      "name": "Snapshot compares count as well as species and serial",
+      "pass": true
+    },
+    {
+      "name": "Ledger validates complete shape before replacing existing state",
+      "pass": true
+    },
+    {
+      "name": "Ledger prevents result rewrite",
+      "pass": true
+    },
+    {
+      "name": "Ledger prevents identity rewrite",
+      "pass": true
+    },
+    {
+      "name": "Ledger prevents snapshot rewrite",
+      "pass": true
+    },
+    {
+      "name": "Ledger prevents timestamp rewrite",
+      "pass": true
+    },
+    {
+      "name": "Ledger prevents consent rollback",
+      "pass": true
+    },
+    {
+      "name": "Ledger cannot lose unacknowledged transactions",
+      "pass": true
+    },
+    {
+      "name": "Acknowledgements monotonic, duplicate ack rejected",
+      "pass": true
+    },
+    {
+      "name": "Cancelled request cannot resurrect",
+      "pass": true
+    },
+    {
+      "name": "Ledger rejects over-capacity rather than dropping history",
+      "pass": true
+    },
+    {
+      "name": "New coordinator requires observed separation before handshake",
+      "pass": true
+    },
+    {
+      "name": "Ledger cannot reorder historical transactions",
+      "pass": true
+    },
+    {
+      "name": "Ledger rejects concurrent unresolved requests",
+      "pass": true
+    },
+    {
+      "name": "Owner remaining time cannot increase across updates",
+      "pass": true
+    },
+    {
+      "name": "Animation age is bounded and cannot rewind",
+      "pass": true
+    },
+    {
+      "name": "Oversize ledger rejected without parsing into app state",
+      "pass": true
+    },
+    {
+      "name": "Resolution at or after expiry is not a valid transaction",
+      "pass": true
+    },
+    {
+      "name": "Sparse pose vectors are rejected",
+      "pass": true
+    },
+    {
+      "name": "Same-participant samples cannot release handshake latch",
+      "pass": true
+    },
+    {
+      "name": "Exact ordered catalogue and separate featured pair",
+      "pass": true
+    },
+    {
+      "name": "Deterministic probability integration gives 40/40/18/2 percent",
+      "pass": true
+    },
+    {
+      "name": "Legacy profiles are rejected without reinterpretation",
+      "pass": true
+    },
+    {
+      "name": "Legacy pose and ledger packets refused even with in-range indices",
+      "pass": true
+    },
+    {
+      "name": "All storage modes have separate four namespaces",
+      "pass": true
+    },
+    {
+      "name": "One-page view bounds reject invalid pages and slots",
+      "pass": true
+    }
+  ]
+}

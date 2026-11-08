@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Gentle",
+    "skin_bones": 16,
+    "height_m": 0.17999999225139618,
+    "clips": [
+      "Celebrate",
+      "Idle",
+      "Walk"
+    ],
+    "animations_verified": [
+      {
+        "name": "Celebrate_Gentle_Rig",
+        "max_vertex_motion_m": 0.01105358843239096
+      },
+      {
+        "name": "Idle_Gentle_Rig",
+        "max_vertex_motion_m": 0.009835094067781628
+      },
+      {
+        "name": "Walk_Gentle_Rig",
+        "max_vertex_motion_m": 0.00802162939536362
+      }
+    ],
+    "embedded_images": 1,
+    "triangles": 7639,
+    "status": "PASS"
+  },
+  {
+    "name": "Detective",
+    "skin_bones": 16,
+    "height_m": 0.17999999970197678,
+    "clips": [
+      "Celebrate",
+      "Idle",
+      "Walk"
+    ],
+    "animations_verified": [
+      {
+        "name": "Celebrate_Detective_Rig",
+        "max_vertex_motion_m": 0.008864705181704787
+      },
+      {
+        "name": "Idle_Detective_Rig",
+        "max_vertex_motion_m": 0.00791420506658294
+      },
+      {
+        "name": "Walk_Detective_Rig",
+        "max_vertex_motion_m": 0.006587530416329846
+      }
+    ],
+    "embedded_images": 1,
+    "triangles": 7757,
+    "status": "PASS"
+  },
+  {
+    "name": "Princess",
+    "skin_bones": 16,
+    "height_m": 0.17999998480081558,
+    "clips": [
+      "Celebrate",
+      "Idle",
+      "Walk"
+    ],
+    "animations_verified": [
+      {
+        "name": "Celebrate_Princess_Rig",
+        "max_vertex_motion_m": 0.011469866536206122
+      },
+      {
+        "name": "Idle_Princess_Rig",
+        "max_vertex_motion_m": 0.010034607200321843
+      },
+      {
+        "name": "Walk_Princess_Rig",
+        "max_vertex_motion_m": 0.00832371532522571
+      }
+    ],
+    "embedded_images": 1,
+    "triangles": 7696,
+    "status": "PASS"
+  },
+  {
+    "name": "Queen",
+    "skin_bones": 16,
+    "height_m": 0.18000002205371857,
+    "clips": [
+      "Celebrate",
+      "Idle",
+      "Walk"
+    ],
+    "animations_verified": [
+      {
+        "name": "Celebrate_Queen_Rig",
+        "max_vertex_motion_m": 0.009249389209830546
+      },
+      {
+        "name": "Idle_Queen_Rig",
+        "max_vertex_motion_m": 0.008228861443129646
+      },
+      {
+        "name": "Walk_Queen_Rig",
+        "max_vertex_motion_m": 0.006712310479141669
+      }
+    ],
+    "embedded_images": 1,
+    "triangles": 7607,
+    "status": "PASS"
+  }
+]

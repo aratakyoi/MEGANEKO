@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/b3c32298-a278-49d0-949a-13de56d411b3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 51df0124-1ddb-4e39-a7f3-fc742ff9308f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 51df0124-1ddb-4e39-a7f3-fc742ff9308f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 11d1553d-0449-4b72-9f09-a823f9cf09e8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/11d1553d-0449-4b72-9f09-a823f9cf09e8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 03d6815e-1754-4775-a20b-98986f37b4b4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    title: false
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - width: !<float> 34.000000
+      title: MEGANEKO
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float width = 28
+    - '// @input string title = "MEGANEKO"'

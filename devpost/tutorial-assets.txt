@@ -1,0 +1,9 @@
+MEGANEKO Tutorial — authored assets
+Created locally in Blender 3.5 for the virtual-partner tutorial.
+Original geometry, solid-color PBR materials, no external texture downloads or paid generation.
+TutorialPartner: stylized human, face, hair, glasses, clothing, 15-bone skeleton. 22,580 triangles. Idle / OfferHandshake / Handshake.
+TutorialRightHand: anatomical right-hand indication, four fingers and thumb, sleeve, 5-bone skeleton. 3,104 triangles. Open / Grip.
+GLBs independently reimported; normalized weights and finite animated deformation verified. Open is intentionally a static hold.
+partner-review.png: full asset review; handshake-review.png: exported asset contact alignment review in Blender.
+Ready/assetready.json: exact exported bone-local contact points, coordinate and animation contract for Lens integration.
+Source .blend files retained for editing. No claim of physical hand sensing, real participant or device verification.

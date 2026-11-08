@@ -1,0 +1,26 @@
+MEGANEKO SIMPLE UI — FINAL VISUAL HANDOFF (2026-11-08)
+Ready for packaging after focused visual changes; no publishing performed.
+Sole Lens writer; native MCP only for Lens operations. No HTTP, readiness recheck, reopen, OBS or video.
+
+Delivered
+- Collection visibly contains four cats in 2x2 Flex cards, 10.5 cm rows, .38 model scale. Owned entries use actual animated prefabs; unowned entries use the existing dark locked silhouette. Labels sit below thumbnails. Back is the only control.
+- Four public collectionModelAnchors own positions. Main tick only animates thumbnails. Back destroys all thumbnail roots without changing profile, storage, or equipped companion.
+- Home follows camera-local (17,-8,-110), beneath companion. Collection centers at (0,0,-120); request/fusion/result at (0,-12,-120), clear of faces.
+- Label bounds use width-4 with wrapping. Short waiting, incoming, and both-agreed messages. Sender cannot agree for the other player.
+- Demo peer visual/reveal fallback/destination y=12. Real remote positions and non-demo fallback remain unchanged; handshake coordinates/rules unchanged.
+- PREVIEW SIMULATION label retained. No new controls.
+
+Final validation
+- Native TypeScript compile succeeded after all source edits.
+- Runtime refresh reached StartMode OFF without Lens runtime errors. Existing LEAF plugin state-save warning during refresh persists.
+- Native meganeko-ui-audio-reach succeeded after final source edits: 4 anchored roots, owned prefab animation players versus locked procedural placeholders; three Collection/Back cycles; actual IK Collection and Back buttons; zero roots after Back; profile and persistent storage byte-for-byte unchanged; 2x2 layout; sender/receiver consent boundary; cancellation; mismatch gating; fusion auto-home; quiet audio.
+- Prior meganeko-demo-integration and meganeko-four-models passes retained from previous worker, not rerun: rules, handshake logic, persistence, model assets and animation clips were not changed.
+- Updated and visually inspected simple-ui-home.png, simple-ui-collection.png, simple-ui-request.png, simple-ui-fusion.png, simple-ui-result.png. Four Collection cats and all labels visible; companion and demo peer faces inside frame; request has Cancel and no Agree; fusion/result readable below cats.
+- Final fallback guard only restricts y=12 to demo-peer, preserving the captured visual path.
+
+Limits
+Physical device, two-device alignment/comfort/readability, physical handshake and performance remain unverified. Receiver test substitutes identity/send boundary in Preview; no new two-device transport claim. Real Meet transport remains untested. Meet success now requires isHost() !== null (host or participant); retained session / stale ready cannot imply connection. Initial attempt runs once. Failure, disconnect, or subsequent disconnected Meet requires reopening the Lens; no in-place retry. Focused isolated callback verification and native compile are recorded in simple-ui-connection-check.txt.
+Existing backup preserved. See simple-ui-final-save.txt for native save/pause evidence.
+RECOVERY COMPLETE — 2026-11-08 03:03:10 JST
+Native ExecuteEditorCode model.project.save() returned saved:true for D:/Documents/Lens Studio/MEGANEKO/MEGANEKO.esproj.
+This supersedes the earlier NOT SAVED / pause-unconfirmed status above. Final connection fix compiled successfully and limited branch tests passed. CUA independently observed Preview is Paused and the muted speaker icon before save; no preview resume occurred afterward. User was operating PC, so further UI input stopped. No source changes after final native save.

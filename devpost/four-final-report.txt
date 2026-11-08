@@ -1,0 +1,60 @@
+MEGANEKO FOUR-MODEL FINAL NATIVE HANDOFF — 2026-11-08 JST
+
+Native source/evidence scope complete. Stable saved project:
+D:/Documents/Lens Studio/MEGANEKO/MEGANEKO.esproj
+Urgent save 02:26:13 JST; final native save 02:29:41 JST
+(2026-11-07T17:29:41.949Z). See four-final-save.txt.
+
+Native readback: Main c8c3b87b-8c44-4063-be4f-71b18ebf8cdf has four non-null slots:
+gentle dcb95a50-0365-4fc0-a7c4-000dcb2ee347
+detective 3ffb56d3-bc7d-4b2b-82e4-c97b6794af8c
+princess a5ec1084-8bf9-4758-92fb-8a2324dde623
+queen e533cb7d-fb7e-406c-b404-8f459d75560a
+Native wrappers in Assets/Characters/FourCast; iconSet=true.
+Weights 80/18/2, species odds 40/40/18/2 unchanged.
+16-bone processed skins; Idle and Celebrate integrated; Walk available but not used.
+18cm source height, .65 display factor, 11.7cm runtime mesh height.
+
+Prior three LEAF passes verified directly in four-final-native-test-evidence.txt:
+four-models, demo-integration, ui-audio-reach. See build-report.txt for timings/scope.
+These are prior runs, not falsely claimed reruns. All four Idle/Celebrate bone motion and
+returnIdle were verified there. 96 pure rules previously reported; no game-rule changes.
+
+This continuation changed only MeganekoPreviewControls.ts: editor-only V all-four model
+fixture, Q Queen fixture, V return to title. Both visibly labelled PREVIEW SIMULATION /
+FIXTURE. All use existing real prefab inputs. No new assets, no catalogue unlocks, no
+production profile mutation, no forced random results. Native compile succeeded and
+refresh reached START_MENU without script errors; known LEAF lifecycle warning remains.
+Manual S,D,N,F,F,H exercised real fusion. Result was Princess for local, Detective for
+simulated peer. Default audio volumes read zero. No rules/consent protections altered.
+
+Evidence captured natively and visually inspected:
+four-final-menu.png — final title with true Detective and Princess.
+four-final-gameplay.png — matching real Princess cats, PREVIEW SIMULATION visible.
+four-final-fusion.png — halo/particles and actual random outcome caption.
+four-final-catalogue.png — current demo collection; uncollected silhouettes remain.
+four-final-queen.png — explicitly labelled display-only Queen fixture.
+four-final-showcase.png — all four true prefabs; labelled top/bottom ordering.
+All PNGs 1392x2493. Old seven captures untouched; no renamed historical evidence.
+
+Final state: reset to START_MENU, enabled AudioComponent object query returned zero;
+native pause succeeded and getConfig returned Preview is Paused. Final native save
+succeeded. An extra post-pause screenshot request was rejected because Preview is Paused;
+existing menu/evidence files were retained. Per project rule no further native operations
+were attempted after that rejection. This is not an unsaved-project or auth blocker.
+
+Helper: use four-recording-needed.txt. Resume in editor UI, focus Preview; S, wait 2s,
+D, N, F, F, H; watch reveal, then C. About 20–40 seconds, simulation only. Optional V/Q
+fixtures from title. Recording helper handles OBS and local clip. No MP4 created here.
+User records polished submission themselves. Reset and pause again after helper capture.
+
+Updated implementation-plan, model-replacement, play-instructions-ja, build-report,
+four-final-status, four-scene-inputs, four-human-action (RESOLVED). Design-brief.md
+provenance preserved as supplied; no blanket approval of its criteria. Historical archives,
+source FBXs and old profile namespaces untouched. No reopen, login, upgrade, packages,
+raw HTTP, KB query, publication, upload, OBS operation or shutdown.
+
+Limits: physical device handshake/alignment/performance/comfort remain unverified.
+No new two-pane SyncKit test run. Automatic street discovery is unimplemented; opt-in
+shared sessions only. Completion here is source integration and local Preview evidence,
+not device validation, submission approval or video production.

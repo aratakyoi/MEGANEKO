@@ -1,0 +1,488 @@
+- !<AssetImportMetadata/4b6f58d0-8a9b-494a-81b6-86fdbc67b403>
+  ImportedAssetIds:
+    .hidden/Princess_Fabric: !<reference> 7ccd1931-2259-4503-96b9-0ce143413511
+    0e666d8e83993745: !<reference> d52abde6-d867-49d5-843a-dafdd5180844
+    13c2f7a01b088050: !<reference> 340f0225-5802-496e-a7a4-cdc79505d23c
+    1b1b6e5f169867b6: !<reference> 9a44b6c2-a3eb-41a7-9960-82e3acb2205f
+    1cb73d99d6439ad6: !<reference> 64fda659-502f-4e3f-b5e5-898f84398874
+    26ba073d67b9d0dd: !<reference> 5dcfec14-3d93-4fef-a434-5ff8da4bf93e
+    4192afd114c2d6e6: !<reference> eaf33c31-16f4-45d2-9e87-9787c2f1e3f0
+    499eb4b023545068: !<reference> c24febb3-a7b8-4492-a356-9c108f35f1fa
+    4fa2f87678cc7c62: !<reference> 9a12f78f-fe3d-4dda-a38e-56cb77eee728
+    5554d16daae2065a: !<reference> 1e27cc26-172c-43e4-b93c-74a12002c9d7
+    56a3f8e132c8f407: !<reference> a5ffb013-1096-43ee-8d88-4783744243d1
+    5f436611ee7aea2d: !<reference> 1f4037d3-c9b7-4ae0-a710-cbaf93d3c663
+    62bee9ffa1f98861: !<reference> e8e639d2-797d-4f1f-b3ce-57b8c4ff660e
+    657c264db4d38ac9: !<reference> 47cb85f5-059d-49d3-89c6-38be81f6f402
+    66666feffcbca778: !<reference> f68ecf56-8bdf-4461-a08e-57ae711b4ed2
+    88ab437fd121cc69: !<reference> 839be94e-cbd8-4ce4-9381-82ccf09e5c23
+    975e0fc67c62dcca: !<reference> 62299395-29ac-41e5-9c22-17439cff43a9
+    Animations/Celebrate: !<reference> 8e2b260d-8476-45fb-9004-f2c950a359b9
+    Animations/Idle: !<reference> 02d6266f-ba35-4036-ace4-b88d77f06213
+    Animations/Walk: !<reference> a910a325-19e6-466b-a4d0-4058b6da375f
+    Materials/Princess_Fabric: !<reference> d5067f7d-7961-4a6b-8ab9-20753cacf43b
+    Materials/Princess_Fabric|Princess_Fabric|GraphPassInfo: !<reference> c77b5725-4070-4224-9b25-7064018bf48a
+    Meshes/tripo_node_af5440a6-7bf0-4059-a1f2-945f3151a27a: !<reference> 6d1450b6-7a21-4441-80d6-90fd30cada75
+    Scene: !<reference> c01c5ec6-aad1-4584-bf57-725b27b7b46e
+    Textures/Princess_MegaNeko_basecolor: !<reference> c85f099f-19c9-4b4e-8c3a-b57b6389513b
+    ac3050ede45843e1: !<reference> 6c494d6a-aa9f-4c9c-b84f-98410e10d50d
+    b366216719b25882: !<reference> 5062c27c-769c-4ebd-83dc-dd286aee99d4
+    b86046d7b36de834: !<reference> 7c237ba5-95a8-47f7-b82c-f1fbd3033012
+    b8c3d848e59c6f37: !<reference> 8fdfa3f2-6034-43f4-81cd-86492fe17889
+    e4d85057be66a682: !<reference> 6094ef82-1e00-47df-b3fd-0b21b1697d42
+    f4f664cbb00b0552: !<reference> 050168ff-fdd7-4770-8abf-c0cbfa2d04b0
+    fd3494d96ec84ae1: !<reference> f71c2e75-02b8-4dbb-8d3b-ded16e67b766
+    fe976a691aadc27a: !<reference> b72ef2b9-b6d1-4c1b-81fb-5a0b5da5a138
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> c01c5ec6-aad1-4584-bf57-725b27b7b46e
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 0574eb1a-12a3-4aee-bbf6-efb17093d8cb
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+      Performance Compression: !<PerformanceCompressionSettings>
+        Level: Medium
+        Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/050168ff-fdd7-4770-7540-3f3405d2fb4f>
+  PrefabRemaps:
+    []
+  Name: HindUpper_R
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.030198, y: -0.005142, z: -0.000708}
+    Rotation: {x: 92.080284, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f71c2e75-02b8-4dbb-72c4-212e91984899
+  Components:
+    []
+- !<ObjectPrefabAssetData/0574eb1a-12a3-4aee-bbf6-efb17093d8cb>
+  Prototype: !<ObjectOwner/461b56b0-3a7e-4882-a3ac-51edaba0c4eb>
+    PackagePath: ""
+    objects:
+      - !<own> 5dcfec14-3d93-4fef-5bcb-a00725b406c1
+- !<SceneObject/1e27cc26-172c-43e4-46c3-8b5edffd3628>
+  PrefabRemaps:
+    []
+  Name: TailMid
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.025024, z: -0.000000}
+    Rotation: {x: 38.608364, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7c237ba5-95a8-47f7-47d3-0e042cfccfed
+  Components:
+    []
+- !<SceneObject/1f4037d3-c9b7-4ae0-58ef-34506c2c399c>
+  PrefabRemaps:
+    []
+  Name: ForeUpper_L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.027273, y: 0.007384, z: 0.016443}
+    Rotation: {x: 120.103416, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e8e639d2-797d-4f1f-4c31-a8473b0099f1
+  Components:
+    []
+- !<SceneObject/340f0225-5802-496e-585b-32386afa2dc3>
+  PrefabRemaps:
+    []
+  Name: Root
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.020443, y: -0.036000, z: 0.008590}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5062c27c-769c-4ebd-7c23-22d79511662b
+  Components:
+    []
+- !<SceneObject/47cb85f5-059d-49d3-7639-c7417e090bfd>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d52abde6-d867-49d5-7bc5-25022ae7f7bb
+  Components:
+    - !<own> 64fda659-502f-4e3f-4a1a-76707bc6778b
+    - !<own> 62299395-29ac-41e5-63dd-e8bc6300bc56
+- !<SceneObject/5062c27c-769c-4ebd-7c23-22d79511662b>
+  PrefabRemaps:
+    []
+  Name: Pelvis
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.007200, z: -0.043574}
+    Rotation: {x: 82.159950, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b72ef2b9-b6d1-4c1b-7e04-a5f4a25a5ec7
+    - !<own> 8fdfa3f2-6034-43f4-7e32-79b6d01e8776
+    - !<own> 050168ff-fdd7-4770-7540-3f3405d2fb4f
+    - !<own> a5ffb013-1096-43ee-7277-b87c8bbdbc2e
+  Components:
+    []
+- !<SceneObject/5dcfec14-3d93-4fef-5bcb-a00725b406c1>
+  PrefabRemaps:
+    []
+  Name: Princess_MegaNeko
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 839be94e-cbd8-4ce4-6c7e-7d330f61a3dc
+  Components:
+    []
+- !<SceneObject/6094ef82-1e00-47df-4c02-f4de4e9682bd>
+  PrefabRemaps:
+    []
+  Name: Chest
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.041746, z: 0.000000}
+    Rotation: {x: -28.431019, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c24febb3-a7b8-4492-5ca9-63ef70ca0e05
+    - !<own> 1f4037d3-c9b7-4ae0-58ef-34506c2c399c
+    - !<own> 9a12f78f-fe3d-4dda-5c71-a934881118d7
+  Components:
+    []
+- !<Skin/62299395-29ac-41e5-63dd-e8bc6300bc56>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    Chest: !<reference> 6094ef82-1e00-47df-4c02-f4de4e9682bd
+    ForePaw_L: !<reference> e8e639d2-797d-4f1f-4c31-a8473b0099f1
+    ForePaw_R: !<reference> 9a44b6c2-a3eb-41a7-669f-7d1c534ddfa0
+    ForeUpper_L: !<reference> 1f4037d3-c9b7-4ae0-58ef-34506c2c399c
+    ForeUpper_R: !<reference> 9a12f78f-fe3d-4dda-5c71-a934881118d7
+    Head: !<reference> c24febb3-a7b8-4492-5ca9-63ef70ca0e05
+    HindPaw_L: !<reference> 6c494d6a-aa9f-4c9c-47b0-67bef1ef2af2
+    HindPaw_R: !<reference> f71c2e75-02b8-4dbb-72c4-212e91984899
+    HindUpper_L: !<reference> 8fdfa3f2-6034-43f4-7e32-79b6d01e8776
+    HindUpper_R: !<reference> 050168ff-fdd7-4770-7540-3f3405d2fb4f
+    Pelvis: !<reference> 5062c27c-769c-4ebd-7c23-22d79511662b
+    Princess_Body: !<reference> eaf33c31-16f4-45d2-6178-68783d0e1c0f
+    Princess_Rig: !<reference> d52abde6-d867-49d5-7bc5-25022ae7f7bb
+    Root: !<reference> 340f0225-5802-496e-585b-32386afa2dc3
+    Spine: !<reference> b72ef2b9-b6d1-4c1b-7e04-a5f4a25a5ec7
+    TailBase: !<reference> a5ffb013-1096-43ee-7277-b87c8bbdbc2e
+    TailMid: !<reference> 1e27cc26-172c-43e4-46c3-8b5edffd3628
+    TailTip: !<reference> 7c237ba5-95a8-47f7-47d3-0e042cfccfed
+- !<AnimationPlayer/64fda659-502f-4e3f-4a1a-76707bc6778b>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8e2b260d-8476-45fb-9004-f2c950a359b9
+      Name: Celebrate
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.533333
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 02d6266f-ba35-4036-ace4-b88d77f06213
+      Name: Idle
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 4.033333
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a910a325-19e6-466b-a4d0-4058b6da375f
+      Name: Walk
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 1.100000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/6c494d6a-aa9f-4c9c-47b0-67bef1ef2af2>
+  PrefabRemaps:
+    []
+  Name: HindPaw_L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.032564, z: 0.000000}
+    Rotation: {x: -9.621362, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7c237ba5-95a8-47f7-47d3-0e042cfccfed>
+  PrefabRemaps:
+    []
+  Name: TailTip
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.030640, z: -0.000000}
+    Rotation: {x: 73.571304, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/839be94e-cbd8-4ce4-6c7e-7d330f61a3dc>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 47cb85f5-059d-49d3-7639-c7417e090bfd
+  Components:
+    []
+- !<SceneObject/8fdfa3f2-6034-43f4-7e32-79b6d01e8776>
+  PrefabRemaps:
+    []
+  Name: HindUpper_L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.030198, y: -0.008203, z: -0.001129}
+    Rotation: {x: 92.080292, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6c494d6a-aa9f-4c9c-47b0-67bef1ef2af2
+  Components:
+    []
+- !<SceneObject/9a12f78f-fe3d-4dda-5c71-a934881118d7>
+  PrefabRemaps:
+    []
+  Name: ForeUpper_R
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.027273, y: 0.014176, z: 0.021353}
+    Rotation: {x: 120.103416, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9a44b6c2-a3eb-41a7-669f-7d1c534ddfa0
+  Components:
+    []
+- !<SceneObject/9a44b6c2-a3eb-41a7-669f-7d1c534ddfa0>
+  PrefabRemaps:
+    []
+  Name: ForePaw_R
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 0.032564, z: 0.000000}
+    Rotation: {x: -9.621327, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a5ffb013-1096-43ee-7277-b87c8bbdbc2e>
+  PrefabRemaps:
+    []
+  Name: TailBase
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: -0.019180, z: -0.004458}
+    Rotation: {x: -155.438339, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1e27cc26-172c-43e4-46c3-8b5edffd3628
+  Components:
+    []
+- !<SceneObject/b72ef2b9-b6d1-4c1b-7e04-a5f4a25a5ec7>
+  PrefabRemaps:
+    []
+  Name: Spine
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 0.026391, z: 0.000000}
+    Rotation: {x: 0.407886, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6094ef82-1e00-47df-4c02-f4de4e9682bd
+  Components:
+    []
+- !<SceneObject/c24febb3-a7b8-4492-5ca9-63ef70ca0e05>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.021507, z: -0.000000}
+    Rotation: {x: -44.969086, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d52abde6-d867-49d5-7bc5-25022ae7f7bb>
+  PrefabRemaps:
+    []
+  Name: Princess_Rig
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> eaf33c31-16f4-45d2-6178-68783d0e1c0f
+    - !<own> 340f0225-5802-496e-585b-32386afa2dc3
+  Components:
+    []
+- !<SceneObject/e8e639d2-797d-4f1f-4c31-a8473b0099f1>
+  PrefabRemaps:
+    []
+  Name: ForePaw_L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.032564, z: -0.000000}
+    Rotation: {x: -9.621353, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/eaf33c31-16f4-45d2-6178-68783d0e1c0f>
+  PrefabRemaps:
+    []
+  Name: Princess_Body
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f68ecf56-8bdf-4461-5f71-a8518ee4b12d
+- !<RenderMeshVisual/f68ecf56-8bdf-4461-5f71-a8518ee4b12d>
+  PrefabRemaps:
+    []
+  Name: tripo_node_af5440a6-7bf0-4059-a1f2-945f3151a27a
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d5067f7d-7961-4a6b-8ab9-20753cacf43b
+  Mesh: !<reference> 6d1450b6-7a21-4441-80d6-90fd30cada75
+  Skin: !<reference> 62299395-29ac-41e5-63dd-e8bc6300bc56
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f71c2e75-02b8-4dbb-72c4-212e91984899>
+  PrefabRemaps:
+    []
+  Name: HindPaw_R
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.032564, z: 0.000000}
+    Rotation: {x: -9.621346, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []

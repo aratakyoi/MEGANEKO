@@ -1,0 +1,25 @@
+MEGANEKO — final model integration, 2026-11-08 JST
+
+All FOUR real processed GLBs are imported and wired, replacing temporary gameplay models.
+Assets/Characters/FourCast wrappers:
+Gentle_MegaNeko_cm: dcb95a50-0365-4fc0-a7c4-000dcb2ee347
+Detective_MegaNeko_cm: 3ffb56d3-bc7d-4b2b-82e4-c97b6794af8c
+Princess_MegaNeko_cm: a5ec1084-8bf9-4758-92fb-8a2324dde623
+Queen_MegaNeko_cm: e533cb7d-fb7e-406c-b404-8f459d75560a
+Main: c8c3b87b-8c44-4063-be4f-71b18ebf8cdf; all four inputs read back non-null.
+PreviewControls.catalogue uses this same Main. Final icon is set natively.
+
+Each supplied model has a 16-bone skin (Ready/validation.json), embedded materials/textures,
+and Idle, Celebrate, Walk clips. Idle 4s loops; Celebrate 2.5s plays at birth then returns
+Idle. Native LEAF verified bone motion for Idle/Celebrate on all four. Walk 32/30s is
+available, NOT used for runtime locomotion. No rigid animation fallback claimed.
+Source model height 18cm; Cat display factor .65 gives 11.7cm. Wrapper root scale 1,
+imported child scale100. Catalogue applies its own miniature factor. Never double-scale.
+Whole-hierarchy bounds include empty bone fallback boxes; use mesh bounds for sizing.
+Original FBXs are untouched. No camera/light/UI inside wrappers.
+
+Gentle/Detective/Princess/Queen odds: 40/40/18/2. Acquisition frames are external:
+Basic, Bronze, Silver, Prismatic, Gold at counts 1,2,3,4,5+.
+Locked catalogue entries remain silhouettes. Start-menu V shows all true models in a
+labelled PREVIEW SIMULATION MODEL FIXTURE; Q shows Queen display only, no acquisition.
+Old seven data and archived captures are preserved. No publication.

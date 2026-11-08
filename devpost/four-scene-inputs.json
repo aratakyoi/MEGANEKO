@@ -1,0 +1,21 @@
+{
+  "source": "Native ExecuteEditorCode readback 2026-11-08; final save 02:29:41 JST",
+  "normal": 80,
+  "rare": 18,
+  "ultraRare": 2,
+  "assetDefaults": {
+    "normal": 80,
+    "rare": 18,
+    "ultraRare": 2
+  },
+  "optionalObjectPrefabInputs": [
+    "gentle",
+    "detective",
+    "princess",
+    "queen"
+  ],
+  "slotsCurrentlyNull": false,
+  "previewControlsCatalogueReference": "c8c3b87b-8c44-4063-be4f-71b18ebf8cdf",
+  "brandingReferenceNote": "Saved PreviewControls.catalogue UUID equals Main ScriptComponent UUID c8c3b87b-8c44-4063-be4f-71b18ebf8cdf. Native proxy === false was object-wrapper identity, not a broken saved reference.",
+  "brandingReferenceVerified": true
+}

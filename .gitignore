@@ -1,0 +1,16 @@
+Cache/
+Support/
+Workspaces/
+PluginsUserPreferences/
+.codex/
+.claude/
+.cursor/
+.vscode/
+.mcp.json
+.virtual-scene.json
+*.pem
+*.key
+*.lock
+*.log
+leaf_plugin_settings.json
+work/

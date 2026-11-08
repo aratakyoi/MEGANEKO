@@ -1,0 +1,17 @@
+try {
+ const project=pluginSystem.findInterface(Editor.Model.IModel).project;
+ const a=project.assetManager, scene=project.scene, out=[];
+ const dest=new Editor.Model.SourcePath(new Editor.Path('Characters/FourCast'),Editor.Model.SourceRootDirectory.Assets);
+ for(const n of ['Gentle','Detective','Princess','Queen']){
+  const raw=a.assets.find(x=>x.name===n+'_MegaNeko'&&x.isOfType('ObjectPrefab')) as Editor.Assets.ObjectPrefab;
+  const wrapper=scene.createSceneObject(n+'_MegaNeko_cm');
+  const instance=scene.instantiatePrefab(raw,wrapper);
+  const players: any[]=[];
+  const walk=(o:Editor.Model.SceneObject)=>{const p=o.getComponent('AnimationPlayer') as Editor.Components.AnimationPlayer;if(p){p.autoplay=true;p.clipRangeType=Editor.Components.ClipRangeType.Seconds;for(const c of p.animationClips){c.disabled=c.name!=='Idle';c.weight=1;c.begin=0;c.end=c.name==='Idle'?4:c.name==='Walk'?32/30:2.5;c.playbackMode=c.name==='Celebrate'?Editor.PlaybackMode.Single:Editor.PlaybackMode.Loop;}players.push(p.animationClips.map(c=>({name:c.name,disabled:c.disabled,end:c.end,asset:c.animation.id.toString()})));}for(const ch of o.children)walk(ch);};walk(instance);
+  const prefab=a.saveAsPrefab(wrapper,dest,n+'_MegaNeko_cm');
+  out.push({name:n,prefabId:prefab.id.toString(),wrapperId:wrapper.id.toString(),rawId:raw.id.toString(),players});
+  wrapper.enabled=false;
+ }
+ project.metaInfo.setIcon(new Editor.Path('D:/Documents/Lens Studio/MEGANEKO-Art/FourCast/Branding/MEGANEKO-icon.png'));
+ project.save();return {models:out,icon:project.metaInfo.iconPath.toString()};
+}catch(e){return {error:String(e)};}

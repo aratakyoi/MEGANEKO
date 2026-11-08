@@ -1,0 +1,115 @@
+- !<AssetImportMetadata/e4b02bda-d960-43e8-a71e-c561f1e36150>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 94ef3061-f36a-4be1-ac7d-2c7ef8cea3f4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 94ef3061-f36a-4be1-ac7d-2c7ef8cea3f4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 13573a1d-8e8a-4077-be69-6d7caeec6d42
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/13573a1d-8e8a-4077-be69-6d7caeec6d42>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 470b4091-2c23-4cdf-b230-e8e9eb68787d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    chime: false
+    detective: false
+    dwell: false
+    follow: false
+    freshness: false
+    gentle: false
+    material: false
+    music: false
+    musicVolume: false
+    normal: false
+    offset: false
+    palmDistance: false
+    participantDistance: false
+    princess: false
+    queen: false
+    rare: false
+    resetDistance: false
+    shared: false
+    tutorialMetadata: false
+    tutorialPartner: false
+    tutorialRightHand: false
+    ui: false
+    ultraRare: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ui: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      shared: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      normal: !<float> 80.000000
+      rare: !<float> 18.000000
+      ultraRare: !<float> 2.000000
+      palmDistance: !<float> 12.000000
+      dwell: 0.800000
+      freshness: 0.350000
+      participantDistance: !<float> 160.000000
+      resetDistance: !<float> 25.000000
+      offset: !<Vec3> {x: 24.000000, y: -9.000000, z: -65.000000}
+      follow: !<float> 5.000000
+      music: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      chime: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      musicVolume: 0.080000
+      gentle: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      detective: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      princess: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      queen: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      tutorialPartner: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      tutorialRightHand: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      tutorialMetadata: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject camera {"hint":"World camera"}'
+    - '// @input AssignableType_1 ui {"hint":"Passive UIKit panel"}'
+    - '// @input SceneObject shared {"hint":"Shared coordinate root"}'
+    - '// @input Asset.Material material {"hint":"Placeholder material"}'
+    - '// @input float normal = 80 {"hint":"Normal tier weight"}'
+    - '// @input float rare = 18 {"hint":"Rare tier weight"}'
+    - '// @input float ultraRare = 2 {"hint":"UltraRare tier weight"}'
+    - '// @input float palmDistance = 12 {"hint":"Right palm proximity in cm"}'
+    - '// @input float dwell = 0.8 {"hint":"Continuous handshake dwell seconds"}'
+    - '// @input float freshness = 0.35 {"hint":"Maximum age of peer hand data seconds"}'
+    - '// @input float participantDistance = 160 {"hint":"Maximum head separation in cm"}'
+    - '// @input float resetDistance = 25 {"hint":"Separate palms this far to unlock next fusion"}'
+    - '// @input vec3 offset = {17,6,-95} {"hint":"Shoulder companion offset in camera-local cm"}'
+    - '// @input float follow = 5 {"hint":"Companion smoothing rate"}'
+    - '// @input Asset.AudioTrackAsset music {"hint":"Original ambient loop"}'
+    - '// @input Asset.AudioTrackAsset chime {"hint":"Birth chime"}'
+    - '// @input float musicVolume = 0.08 {"hint":"Quiet ambient volume"}'
+    - '// @input Asset.ObjectPrefab gentle {"hint":"Replace gentle: centimeters, centered, face +Z"}'
+    - '// @input Asset.ObjectPrefab detective {"hint":"Replace detective: centimeters, centered, face +Z"}'
+    - '// @input Asset.ObjectPrefab princess {"hint":"Replace princess: centimeters, centered, face +Z"}'
+    - '// @input Asset.ObjectPrefab queen {"hint":"Replace queen: centimeters, centered, face +Z"}'
+    - '// @input Asset.ObjectPrefab tutorialPartner {"hint":"Tutorial partner: actual rigged prefab"}'
+    - '// @input Asset.ObjectPrefab tutorialRightHand {"hint":"Tutorial first person right forearm/hand prefab"}'
+    - '// @input string tutorialMetadata {"hint":"Parent supplied meter-space contact metadata JSON"}'

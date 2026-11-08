@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/ddec1c15-08cf-439e-ae82-2b950d35f12c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 14200991-9550-4676-a1a2-ca3fec48f74f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 14200991-9550-4676-a1a2-ca3fec48f74f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f45c68c2-1cf7-47fb-a147-0d3b569f418f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f45c68c2-1cf7-47fb-a147-0d3b569f418f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b6fc3172-dcf5-4ef0-9238-7ab57c89c56b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    catalogue: false
+    graphic: false
+    help: false
+    material: false
+    menu: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - menu: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      graphic: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      help: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      catalogue: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 menu
+    - // @input SceneObject camera
+    - // @input Asset.Material material
+    - // @input SceneObject graphic
+    - // @input Component.Text help
+    - // @input AssignableType_2 catalogue

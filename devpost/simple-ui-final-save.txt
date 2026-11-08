@@ -1,0 +1,3 @@
+RECOVERY COMPLETE — 2026-11-08 03:03:10 JST
+Native ExecuteEditorCode model.project.save() returned saved:true for D:/Documents/Lens Studio/MEGANEKO/MEGANEKO.esproj.
+This supersedes the earlier NOT SAVED / pause-unconfirmed status above. Final connection fix compiled successfully and limited branch tests passed. CUA independently observed Preview is Paused and the muted speaker icon before save; no preview resume occurred afterward. User was operating PC, so further UI input stopped. No source changes after final native save.

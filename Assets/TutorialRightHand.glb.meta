@@ -1,0 +1,330 @@
+- !<AssetImportMetadata/77c4cb33-e05b-41b0-a72e-7a566e8df6ac>
+  ImportedAssetIds:
+    .hidden/Ivory cotton: !<reference> 1a5b3acc-09c8-4ad1-a49b-7c63e7dc7ca6
+    1cb73d99d6439ad6: !<reference> bf7143a5-f7d4-455a-9c95-eba02cef13cb
+    26ba073d67b9d0dd: !<reference> 4d1e70d6-4d4b-4c2d-b1a4-43a88b85b286
+    2cacf184ae1db51a: !<reference> da54a98c-fcbb-4543-9ca3-c180fa61f7f2
+    402e4c7e484165f6: !<reference> 12520b60-295f-490d-afde-07cf0e515723
+    520c25676f914bea: !<reference> 39a7681f-f06f-455f-8bd8-187bb241d684
+    5c39384e27613528: !<reference> f6583820-47c7-4e54-a6a2-e69ecd7e69e5
+    657c264db4d38ac9: !<reference> 627db50e-fd95-4152-b218-4ab20b3c325e
+    72bf2be88beafe0e: !<reference> ffb0d430-ed71-4579-9506-7f6a65cfa65b
+    88ab437fd121cc69: !<reference> 95d4f548-6e18-4147-85c0-880261074cc0
+    8f60931255231f5d: !<reference> 31f41691-ce2f-4aa5-924d-bf2b0b2e23f0
+    975e0fc67c62dcca: !<reference> 229e2563-2534-4bd2-8b8c-2983e887c11d
+    9adc9f78cc8cfc5d: !<reference> 3d4c598a-ba8f-450e-9791-9b15a675f33a
+    Animations/Grip: !<reference> 7e5cfdfa-4e3e-404f-b342-9201b722dc1d
+    Animations/Open: !<reference> c28ea219-7ecb-4daf-8dba-593a4998c4dc
+    Materials/Ivory cotton: !<reference> de3fe237-11f6-42cc-9460-72e4f2d418f7
+    Materials/Ivory cotton|Ivory cotton|GraphPassInfo: !<reference> e0ec31ae-f391-470c-8551-263129327103
+    Materials/Teal overshirt: !<reference> 8b4596c1-df73-414c-891b-f768a27f2172
+    Materials/Teal overshirt|Teal overshirt|GraphPassInfo: !<reference> ca6250f3-134b-44da-aa9f-0e661c228a11
+    Materials/Warm terracotta skin: !<reference> afb8e2c0-9b75-46dc-81ad-76b0314c46a9
+    Materials/Warm terracotta skin|Warm terracotta skin|GraphPassInfo: !<reference> 4eb46495-4b30-4499-84a6-d165ce2d46c0
+    Meshes/Sphere.058: !<reference> 651ccd03-efc7-4fb2-adc0-45c61c9f58e0
+    Meshes/Sphere1.058: !<reference> 216609f7-42fa-4839-b8ba-87be5a068444
+    Meshes/Sphere2.058: !<reference> 906aa945-72be-4bc9-a746-c4ecc125f98c
+    Scene: !<reference> a576f827-6f52-4c56-80b4-4c0aea6caf5c
+    ad8ca8189356ac2b: !<reference> d40641ce-e195-4e00-97ca-ef13e038165c
+    b788b8e42530a001: !<reference> 2c14d8c2-8309-49a8-82a9-5c20e3d67248
+    e0198ab29657c48c: !<reference> 9b1d3fb6-60e0-41f9-ab99-730da6b1bd7e
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> a576f827-6f52-4c56-80b4-4c0aea6caf5c
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 4b0434e4-d556-441d-acae-12f609f7c38a
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/12520b60-295f-490d-5021-f830f1aea8dc>
+  PrefabRemaps:
+    []
+  Name: TutorialRightHandRig
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> da54a98c-fcbb-4543-635c-3e7f059e080d
+    - !<own> 9b1d3fb6-60e0-41f9-5466-8cf2594e4281
+  Components:
+    []
+- !<Skin/229e2563-2534-4bd2-7473-d67c17783ee2>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    PlayerRightFinger0: !<reference> 39a7681f-f06f-455f-7427-e7844dbe297b
+    PlayerRightFinger1: !<reference> d40641ce-e195-4e00-6835-10ec1fc7e9a3
+    PlayerRightFinger2: !<reference> 31f41691-ce2f-4aa5-6db2-40d4f4d1dc0f
+    PlayerRightFinger3: !<reference> f6583820-47c7-4e54-595d-19613281961a
+    TutorialRightHandMesh: !<reference> da54a98c-fcbb-4543-635c-3e7f059e080d
+    TutorialRightHandRig: !<reference> 12520b60-295f-490d-5021-f830f1aea8dc
+    Wrist: !<reference> 9b1d3fb6-60e0-41f9-5466-8cf2594e4281
+- !<RenderMeshVisual/2c14d8c2-8309-49a8-7d56-a3df1c298db7>
+  PrefabRemaps:
+    []
+  Name: Sphere.058
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de3fe237-11f6-42cc-9460-72e4f2d418f7
+  Mesh: !<reference> 906aa945-72be-4bc9-a746-c4ecc125f98c
+  Skin: !<reference> 229e2563-2534-4bd2-7473-d67c17783ee2
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/31f41691-ce2f-4aa5-6db2-40d4f4d1dc0f>
+  PrefabRemaps:
+    []
+  Name: PlayerRightFinger2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.090000, z: -0.012000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/39a7681f-f06f-455f-7427-e7844dbe297b>
+  PrefabRemaps:
+    []
+  Name: PlayerRightFinger0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.090000, z: 0.031000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/3d4c598a-ba8f-450e-686e-64ea598a0cc5>
+  PrefabRemaps:
+    []
+  Name: Sphere.058
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> afb8e2c0-9b75-46dc-81ad-76b0314c46a9
+  Mesh: !<reference> 651ccd03-efc7-4fb2-adc0-45c61c9f58e0
+  Skin: !<reference> 229e2563-2534-4bd2-7473-d67c17783ee2
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/4b0434e4-d556-441d-acae-12f609f7c38a>
+  Prototype: !<ObjectOwner/2935d180-a117-4a25-b506-1b7eb7b6b9fe>
+    PackagePath: ""
+    objects:
+      - !<own> 4d1e70d6-4d4b-4c2d-4e5b-bc57747a4d79
+- !<SceneObject/4d1e70d6-4d4b-4c2d-4e5b-bc57747a4d79>
+  PrefabRemaps:
+    []
+  Name: TutorialRightHand
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 95d4f548-6e18-4147-7a3f-77fd9ef8b33f
+  Components:
+    []
+- !<SceneObject/627db50e-fd95-4152-4de7-b54df4c3cda1>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 12520b60-295f-490d-5021-f830f1aea8dc
+  Components:
+    - !<own> bf7143a5-f7d4-455a-636a-145fd310ec34
+    - !<own> 229e2563-2534-4bd2-7473-d67c17783ee2
+- !<SceneObject/95d4f548-6e18-4147-7a3f-77fd9ef8b33f>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 627db50e-fd95-4152-4de7-b54df4c3cda1
+  Components:
+    []
+- !<SceneObject/9b1d3fb6-60e0-41f9-5466-8cf2594e4281>
+  PrefabRemaps:
+    []
+  Name: Wrist
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 39a7681f-f06f-455f-7427-e7844dbe297b
+    - !<own> d40641ce-e195-4e00-6835-10ec1fc7e9a3
+    - !<own> 31f41691-ce2f-4aa5-6db2-40d4f4d1dc0f
+    - !<own> f6583820-47c7-4e54-595d-19613281961a
+  Components:
+    []
+- !<AnimationPlayer/bf7143a5-f7d4-455a-636a-145fd310ec34>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7e5cfdfa-4e3e-404f-b342-9201b722dc1d
+      Name: Grip
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 1.033333
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> c28ea219-7ecb-4daf-8dba-593a4998c4dc
+      Name: Open
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 1.033333
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/d40641ce-e195-4e00-6835-10ec1fc7e9a3>
+  PrefabRemaps:
+    []
+  Name: PlayerRightFinger1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.090000, z: 0.010000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/da54a98c-fcbb-4543-635c-3e7f059e080d>
+  PrefabRemaps:
+    []
+  Name: TutorialRightHandMesh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3d4c598a-ba8f-450e-686e-64ea598a0cc5
+    - !<own> ffb0d430-ed71-4579-6af9-80959a3059a4
+    - !<own> 2c14d8c2-8309-49a8-7d56-a3df1c298db7
+- !<SceneObject/f6583820-47c7-4e54-595d-19613281961a>
+  PrefabRemaps:
+    []
+  Name: PlayerRightFinger3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.090000, z: -0.033000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/ffb0d430-ed71-4579-6af9-80959a3059a4>
+  PrefabRemaps:
+    []
+  Name: Sphere.058
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8b4596c1-df73-414c-891b-f768a27f2172
+  Mesh: !<reference> 216609f7-42fa-4839-b8ba-87be5a068444
+  Skin: !<reference> 229e2563-2534-4bd2-7473-d67c17783ee2
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

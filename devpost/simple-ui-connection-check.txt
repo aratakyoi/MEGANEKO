@@ -1,0 +1,14 @@
+MEGANEKO focused connection verification
+Actual MeganekoPreviewControls.ts callback body tested with isolated inputs: PASS.
+Verified connected host true and participant false; stale retained session rejected; first Meet attempt exactly once; repeated disconnected Meet requests reopen; failure/disconnection share reopen guidance; stale ready rejected; actual ready host/client accepted.
+No SDK or runtime global state modified by verification. No physical connection claim.
+Native RecompileTypeScriptTool: succeeded.
+play-instructions-ja.txt, simple-ui-final-report.txt and build-report.txt updated with reopen requirement.
+UI visuals/game core/handshake unchanged. Previous three LEAF passes and approved screenshots retained, not rerun.
+Final native save time: NOT SAVED in this continuation.
+Final Preview pause call failed: InternalError: Wrong argument count: expected 1, got 0.
+Stopped per AGENTS.md MCP failure rule. Final pause/audio state not newly verified. Prior quiet/paused evidence remains historical only.
+Source and documentation changes are persisted on disk; final native save remains outstanding.
+RECOVERY COMPLETE — 2026-11-08 03:03:10 JST
+Native ExecuteEditorCode model.project.save() returned saved:true for D:/Documents/Lens Studio/MEGANEKO/MEGANEKO.esproj.
+This supersedes the earlier NOT SAVED / pause-unconfirmed status above. Final connection fix compiled successfully and limited branch tests passed. CUA independently observed Preview is Paused and the muted speaker icon before save; no preview resume occurred afterward. User was operating PC, so further UI input stopped. No source changes after final native save.
